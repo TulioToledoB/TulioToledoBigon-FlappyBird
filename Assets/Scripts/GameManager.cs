@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
         audioSource.PlayOneShot(gameOverSound);
         isGameOver = true;
         gameOverText.SetActive(true);
-        currentScore.text= "Current Score: "+score.ToString();
+        currentScore.text= "Score: "+score.ToString();
      
         if (score > bestScore)
         {
